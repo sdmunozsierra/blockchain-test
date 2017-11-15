@@ -1,4 +1,5 @@
 const PesoCoinCrowdsale = artifacts.require("./PesoCoinCrowdsale.sol")
+//const PesoCoinCrowdsale = artifacts.require("../contracts/PesoCoinCrowdsale.sol")
 
 module.exports = function(deployer, network, accounts) {
   const startTime = web3.eth.getBlock(web3.eth.blockNumber).timestamp + 1 // one second in the future
